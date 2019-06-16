@@ -34,7 +34,6 @@ class App extends React.Component {
 
 const enhance = lifecycle({
   componentDidMount() {
-    console.log('App running');
     store.dispatch(appOperations.loadAssets());
   },
 });
