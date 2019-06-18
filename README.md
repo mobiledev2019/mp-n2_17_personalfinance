@@ -6,9 +6,12 @@ Members:
 * Nguyễn Văn Hiệu - B15DCAT074
 * Nguyễn Minh Đức - B15DCAT046
 
+Report:
+
+* [Link Report](./Bao%20Cao%20Ung%20Dung.docx)
 ## Bootstrap Project
-1. Cài đặt npm hoặc yarn 
-2. Chạy lệnh
+1. Install npm or yarn 
+2. Run
 
 ```
 yarn
@@ -18,15 +21,23 @@ npm
 
 ## Run App
 
-### On iOS
+### On Android
 
-`npm/yarn android`
+```
+npm run android
+or
+yarn android 
+```
 
 Open the app in the iOS Simulator if you're on a Mac and have it installed.
 
-### On Android
+### On iOS
 
-`npm/yarn android`
+```
+npm run ios
+or
+yarn ios 
+``` 
 
 Open the app on a connected Android device or emulator, to start an Android emulator, see below.
 
