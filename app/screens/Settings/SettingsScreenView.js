@@ -45,15 +45,6 @@ const Settings = ({
         />
       </View>
     </View>
-    <View style={s.secondContainer}>
-      <Text style={s.text}>Made with ❤️ by</Text>
-      <Icon
-        name="apikoLogo"
-        width={80}
-        height={24}
-      />
-    </View>
-
   </ScreenWrapper>
 );
 
